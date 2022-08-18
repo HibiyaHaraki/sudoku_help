@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>数独 HELP</title>
+    <link rel="stylesheet" href="design.css">
+  </head>
+  <body>
+    <h1 class="title">数独 HELP</h1>
+    <table class="sudoku_field">
+      <colgroup>
+        <col>
+        <col>
+        <col>
+        <col>
+        <col>
+        <col>
+        <col>
+        <col>
+        <col>
+    </colgroup>
+      <tr>
+        <td><input id="0" type="text"></td>
+        <td><input id="1" type="text"></td>
+        <td><input id="2" class="right_bold" type="text"></td>
+        <td><input id="3" type="text"></td>
+        <td><input id="4" type="text"></td>
+        <td><input id="5" class="right_bold" type="text"></td>
+        <td><input id="6" type="text"></td>
+        <td><input id="7" type="text"></td>
+        <td><input id="8" type="text"></td>
+      </tr>
+      <tr>
+        <td><input id="9" type="text"></td>
+        <td><input id="10" type="text"></td>
+        <td><input id="11" class="right_bold" type="text"></td>
+        <td><input id="12" type="text"></td>
+        <td><input id="13" type="text"></td>
+        <td><input id="14" class="right_bold" type="text"></td>
+        <td><input id="15" type="text"></td>
+        <td><input id="16" type="text"></td>
+        <td><input id="17" type="text"></td>
+      </tr>
+      <tr>
+        <td><input id="18" class="bottom_bold" type="text"></td>
+        <td><input id="19" class="bottom_bold" type="text"></td>
+        <td><input id="20" class="right_bold bottom_bold" type="text"></td>
+        <td><input id="21" class="bottom_bold" type="text"></td>
+        <td><input id="22" class="bottom_bold" type="text"></td>
+        <td><input id="23" class="right_bold bottom_bold" type="text"></td>
+        <td><input id="24" class="bottom_bold" type="text"></td>
+        <td><input id="25" class="bottom_bold" type="text"></td>
+        <td><input id="26" class="bottom_bold" type="text"></td>
+      </tr>
+      <tr>
+        <td><input id="27" type="text"></td>
+        <td><input id="28" type="text"></td>
+        <td><input id="29" class="right_bold" type="text"></td>
+        <td><input id="30" type="text"></td>
+        <td><input id="31" type="text"></td>
+        <td><input id="32" class="right_bold" type="text"></td>
+        <td><input id="33" type="text"></td>
+        <td><input id="34" type="text"></td>
+        <td><input id="35" type="text"></td>
+      </tr>
+      <tr>
+        <td><input id="36" type="text"></td>
+        <td><input id="37" type="text"></td>
+        <td><input id="38" class="right_bold" type="text"></td>
+        <td><input id="39" type="text"></td>
+        <td><input id="40" type="text"></td>
+        <td><input id="41" class="right_bold" type="text"></td>
+        <td><input id="42" type="text"></td>
+        <td><input id="43" type="text"></td>
+        <td><input id="44" type="text"></td>
+      </tr>
+      <tr>
+        <td><input id="45" class="bottom_bold" type="text"></td>
+        <td><input id="46" class="bottom_bold" type="text"></td>
+        <td><input id="47" class="right_bold bottom_bold" type="text"></td>
+        <td><input id="48" class="bottom_bold" type="text"></td>
+        <td><input id="49" class="bottom_bold" type="text"></td>
+        <td><input id="50" class="right_bold bottom_bold" type="text"></td>
+        <td><input id="51" class="bottom_bold" type="text"></td>
+        <td><input id="52" class="bottom_bold" type="text"></td>
+        <td><input id="53" class="bottom_bold" type="text"></td>
+      </tr>
+      <tr>
+        <td><input id="54" type="text"></td>
+        <td><input id="55" type="text"></td>
+        <td><input id="56" class="right_bold" type="text"></td>
+        <td><input id="57" type="text"></td>
+        <td><input id="58" type="text"></td>
+        <td><input id="59" class="right_bold" type="text"></td>
+        <td><input id="60" type="text"></td>
+        <td><input id="61" type="text"></td>
+        <td><input id="62" type="text"></td>
+      </tr>
+      <tr>
+        <td><input id="63" type="text"></td>
+        <td><input id="64" type="text"></td>
+        <td><input id="65" class="right_bold" type="text"></td>
+        <td><input id="66" type="text"></td>
+        <td><input id="67" type="text"></td>
+        <td><input id="68" class="right_bold" type="text"></td>
+        <td><input id="69" type="text"></td>
+        <td><input id="70" type="text"></td>
+        <td><input id="71" type="text"></td>
+      </tr>
+      <tr>
+        <td><input id="72" type="text"></td>
+        <td><input id="73" type="text"></td>
+        <td><input id="74" class="right_bold" type="text"></td>
+        <td><input id="75" type="text"></td>
+        <td><input id="76" type="text"></td>
+        <td><input id="77" class="right_bold" type="text"></td>
+        <td><input id="78" type="text"></td>
+        <td><input id="79" type="text"></td>
+        <td><input id="80" type="text"></td>
+      </tr>
+    </table>
+
+    <table class="colorbar" id="colorbar">
+      <tr>
+        <td>0</td>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+        <td>7</td>
+        <td>8</td>
+        <td>9</td>
+      </tr>
+    </table>
+
+    <p id="information" class="info">値を入れて, 下のボタンを押してください</p>
+    <p id="warning" class="info"></p>
+
+    <ul class="button_list">
+      <li><button type="button" class="hint_button" onclick="create_hint(1)">1</button></li>
+      <li><button type="button" class="hint_button" onclick="create_hint(2)">2</button></li>
+      <li><button type="button" class="hint_button" onclick="create_hint(3)">3</button></li>
+      <li><button type="button" class="hint_button" onclick="create_hint(4)">4</button></li>
+      <li><button type="button" class="hint_button" onclick="create_hint(5)">5</button></li>
+      <li><button type="button" class="hint_button" onclick="create_hint(6)">6</button></li>
+      <li><button type="button" class="hint_button" onclick="create_hint(7)">7</button></li>
+      <li><button type="button" class="hint_button" onclick="create_hint(8)">8</button></li>
+      <li><button type="button" class="hint_button" onclick="create_hint(9)">9</button></li>
+    </ul>
+    <div align="center" style="margin: auto; padding: 0;width: 100vh;">
+      <button type="button" class="counter_button" onclick="create_count()">Count</button>
+    </div>
+
+    <script src="mouse_highlighting.js"></script>
+    <script src="create_hint.js"></script>
+  </body>
+</html>

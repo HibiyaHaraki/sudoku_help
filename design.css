@@ -1,0 +1,120 @@
+body {
+  font-family: serif;
+}
+
+.title {
+  text-align: center;
+}
+
+table {
+  border: 5px solid rgb(0,0,0);
+  border-collapse: collapse;
+  height: 63vh;
+  width: 63vh;
+  margin: auto;
+  text-align: center;
+  table-layout: fixed;
+}
+
+table th,
+table td {
+  border: 2px solid rgb(0,0,0);
+}
+
+.right_bold {
+  border-right: 3px solid rgb(0,0,0);
+}
+
+.bottom_bold {
+  border-bottom: 3px solid rgb(0,0,0);
+}
+
+input {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-size: 200%;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+input:focus {
+  box-shadow: 0 0 5px 0 rgba(255,153,0,1);
+  /*border: 2px solid #FFF;*/
+  outline: 0;
+}
+
+#colorbar {
+  border: 1px solid rgb(0,0,0);
+  border-collapse: collapse;
+  height: 7vh;
+  width: 63vh;
+  margin: 10px auto;
+  text-align: center;
+  table-layout: fixed;
+}
+
+#colorbar td {
+  border: 2px solid rgb(0,0,0);
+  font-size: 150%;
+}
+
+.info {
+  width: 63vh;
+  text-align: center;
+  margin: 20px auto;
+  font-size: 150%;
+  font-weight: 700;
+  color: rgb(10,21,97);
+}
+
+.button_list {
+  list-style: none;
+  width: 63vh;
+  margin: 5px auto;
+}
+
+.button_list li {
+   display: inline-block;
+   text-align: center;
+   margin: auto;
+   width: 6vh;
+   height: 6vh;
+}
+
+.button_list li button {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  padding:0;
+  margin: 5px 1px;
+  font-size: 200%;
+  background-color: rgb(10,21,97);
+  border: 1px solid rgb(10,21,97);
+  border-radius: 20%;
+  color: rgb(255,255,255);
+}
+
+.button_list li button:hover {
+  background-color: rgba(255,255,255,0);
+  color: rgb(10,21,97);
+}
+
+.counter_button {
+  text-align: center;
+  padding: 5px 15px;
+  margin: 5px auto;
+  font-size: 200%;
+  background-color: rgb(10,21,97);
+  border: 1px solid rgb(10,21,97);
+  border-radius: 5%;
+  color: rgb(255,255,255);
+}
+
+.counter_button:hover {
+  background-color: rgba(255,255,255,0);
+  color: rgb(10,21,97);
+}
